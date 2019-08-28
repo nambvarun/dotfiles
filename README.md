@@ -7,4 +7,4 @@ Pre-Conditions:
 
 ## Script Descriptions
 
-`setup-zsh.sh`: fetches latest zsh using brew, installs oh-my-zsh, and switches default shell to zsh. Need to exit for all the changes to take effect.
+`zsh-install.sh`: fetches latest zsh using brew, installs oh-my-zsh, and switches default shell to zsh. Need to exit for all the changes to take effect.
