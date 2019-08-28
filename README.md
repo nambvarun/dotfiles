@@ -11,7 +11,7 @@ Pre-Conditions:
 
 `install-plugins-zsh.sh`: installs zsh-syntax-highlighting and zsh-autosuggestions.
 
-In order to activate the plugins. We need to edit the ~/.zshrc file with the corresponding command.
+We need to edit the plugins line in `~/.zshrc` with this command:
 ```
 plugins=(git zsh-syntax-highlighting zsh-autosuggestions)
 ```
