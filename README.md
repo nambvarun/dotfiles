@@ -1,9 +1,12 @@
 # machine-configs
 Relevant packages and terminal configurations for development.
 
-Pre-Conditions:
+Pre-Conditions (macOS):
  - Xcode Tools are installed.
  - Homebrew is installed.
+
+Pre-Conditions (Ubuntu):
+ - Git - need it to clone this repo.
 
 ## Script Descriptions
 
@@ -17,8 +20,9 @@ plugins=(git zsh-syntax-highlighting zsh-autosuggestions)
 ```
 
 `install-brew-packages.sh`:
-	- git
-	- htop
-	- neovim
-	- thefuck: need to run the command twice and restart shell for the command to work.
-	- vim
+
+  - git
+  - htop
+  - neovim
+  - thefuck: need to run the command twice and restart shell for the command to work.
+  - vim
