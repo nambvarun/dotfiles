@@ -25,6 +25,7 @@ elif [[ "$OSTYPE" == "linux-gnu"* ]]; then
   apt-get install python3-dev python3-pip python3-setuptools
   pip3 install thefuck
   apt-get install vim
+  apt-get install xclip
 
 else
   echo "Unsupported OS: $OSTYPE" >&2
