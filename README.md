@@ -5,7 +5,7 @@ Pre-Conditions (macOS):
  - Xcode Tools are installed.
  - Homebrew is installed.
 
-Pre-Conditions (Ubuntu):
+Pre-Conditions (Ubuntu 18.04):
  - Git - need it to clone this repo.
 
 ## Script Descriptions
