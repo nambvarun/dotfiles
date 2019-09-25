@@ -7,6 +7,7 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
   brew install neovim
   brew install node
   brew install thefuck
+  brew install tmux
   brew install vim
 
   curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
