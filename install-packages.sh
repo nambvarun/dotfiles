@@ -27,7 +27,8 @@ elif [[ "$OSTYPE" == "linux-gnu"* ]]; then
   pip3 install thefuck
   apt-get install vim
   apt-get install xclip
-
+  apt-get install openssh-client
+  apt-get install openssh-server ii
 else
   echo "Unsupported OS: $OSTYPE" >&2
   echo "Setup Incomplete" >&2
