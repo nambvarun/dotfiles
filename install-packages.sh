@@ -1,3 +1,5 @@
+#!/bin/bash
+
 if [[ "$OSTYPE" == "darwin"* ]]; then
   echo "Supported OS: $OSTYPE"
 
@@ -18,9 +20,13 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
 elif [[ "$OSTYPE" == "linux-gnu"* ]]; then
   echo "Supported OS: $OSTYPE"
 
+  username=$1
+
   apt-get upgrade
+  apt-get install curl
   apt-get install git
   apt-get install htop
+  apt-get install net-tools
   apt-get install neovim
   apt-get install node
   apt-get install python3-dev python3-pip python3-setuptools
@@ -29,6 +35,7 @@ elif [[ "$OSTYPE" == "linux-gnu"* ]]; then
   apt-get install xclip
   apt-get install openssh-client
   apt-get install openssh-server ii
+  chown -R $username ~/.oh-my-zsh ~/.zsh*
 else
   echo "Unsupported OS: $OSTYPE" >&2
   echo "Setup Incomplete" >&2
