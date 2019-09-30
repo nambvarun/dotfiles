@@ -12,6 +12,8 @@ Pre-Conditions (Ubuntu 18.04):
 
 `install-zsh.sh`: fetches latest zsh using brew, installs oh-my-zsh, and switches default shell to zsh. Need to exit for all the changes to take effect.
 
+NOTE: When running install-zsh.sh make sure to add your username as the first parameter.
+
 `install-zsh-plugins.sh`: installs zsh-syntax-highlighting and zsh-autosuggestions.
 
 We need to edit the plugins line in `~/.zshrc` with this command:
